@@ -11,14 +11,18 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: seagreen;
+  background: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .container{
   position: relative;
   width: 400px;
   height: 555px;
   border-radius: 16px;
-  background: purple;
+  background: rgba(255, 255, 255, .1);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
   color: #fff;
 }
